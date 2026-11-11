@@ -1,0 +1,9 @@
+.app { max-width: 760px; margin: 0 auto; padding: 1.5rem; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding-bottom: 1rem; border-bottom: 1px solid #ddd; }
+.brand { font-weight: 700; }
+nav, .actions { display: flex; gap: 1rem; }
+nav a.active { font-weight: 700; }
+main { min-height: 340px; padding: 1rem 0 2rem; }
+section { border: 1px solid #ddd; border-radius: 6px; padding: 1rem; background: white; }
+section h2 { margin-top: 0; }
+footer { border-top: 1px solid #ddd; padding-top: 1rem; color: #555; font-size: 0.875rem; }
